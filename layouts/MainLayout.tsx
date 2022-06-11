@@ -9,6 +9,7 @@ interface MainLayoutProps {
   className?: string;
 }
 
+
 export const MainLayout: React.FC<MainLayoutProps> = ({
   children,
   contentFullWidth,
