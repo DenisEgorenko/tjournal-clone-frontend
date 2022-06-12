@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e0e4f73-dc6f-4b94-8f2b-6e1d75c6bd7d" name="Changes" comment="My First Commit" />
+    <list default="true" id="3e0e4f73-dc6f-4b94-8f2b-6e1d75c6bd7d" name="Changes" comment="My First Commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,10 +33,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/tjournal_clon/tjournal-clone-frontend",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "D:\\tjournal-clone-frontend\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "D:\\tjournal_clon\\tjournal-clone-frontend\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -64,6 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1654982560459</updated>
       <workItem from="1654982561944" duration="1307000" />
+      <workItem from="1655027848346" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="My First Commit">
       <created>1654982682976</created>
@@ -72,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654982682976</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="My First Commit">
+      <created>1655028125752</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655028125752</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
