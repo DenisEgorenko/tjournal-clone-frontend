@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e0e4f73-dc6f-4b94-8f2b-6e1d75c6bd7d" name="Changes" comment="My First Commit">
-      <change afterPath="$PROJECT_DIR$/components/Editor.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/WriteForm/WrieForm.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/WriteForm/WriteForm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/write.tsx" afterDir="false" />
+    <list default="true" id="3e0e4f73-dc6f-4b94-8f2b-6e1d75c6bd7d" name="Changes" comment="1 lesson">
+      <change afterPath="$PROJECT_DIR$/components/AddCommentForm/AddCommentForm.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/AddCommentForm/AddCommentForm.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PostComments/PostComments.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/PostComments/PostComments.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SideComments/CommentItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/SideComments/SideComments.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Comment/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Comment/Comment.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/FullPost/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/FullPost/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LeftMenu/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/LeftMenu/LeftMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SideComments/SideComments.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/SideComments/SideComments.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/SideComments/index.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/layouts/MainLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/MainLayout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/news/[slug].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/news/[slug].tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -61,6 +67,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="es6.move.members.recent.items">
+      <recent name="D:\tjournal_clon\tjournal-clone-frontend\components\SideComments\CommentItem.tsx" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -88,7 +99,7 @@
       <updated>1654982560459</updated>
       <workItem from="1654982561944" duration="1307000" />
       <workItem from="1655027848346" duration="6072000" />
-      <workItem from="1655056015340" duration="3916000" />
+      <workItem from="1655056015340" duration="11968000" />
     </task>
     <task id="LOCAL-00001" summary="My First Commit">
       <created>1654982682976</created>
@@ -111,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655028648712</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1 lesson">
+      <created>1655065316148</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655065316148</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +148,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="My First Commit" />
+    <MESSAGE value="1 lesson" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 lesson" />
   </component>
 </project>
