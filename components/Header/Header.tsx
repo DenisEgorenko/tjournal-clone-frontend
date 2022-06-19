@@ -1,6 +1,11 @@
 import React from 'react';
 import Link from 'next/link';
-import {Paper, Button, IconButton, Avatar} from '@material-ui/core';
+import {
+    Paper,
+    Button,
+    IconButton,
+    Avatar
+} from '@material-ui/core';
 import {
     SearchOutlined as SearchIcon,
     CreateOutlined as PenIcon,
@@ -8,11 +13,25 @@ import {
     Menu as MenuIcon,
     ExpandMoreOutlined as ArrowBottom,
     NotificationsNoneOutlined as NotificationIcon,
+    AccountCircleOutlined as UserIcon
 } from '@material-ui/icons';
 
 import styles from './Header.module.scss';
+import AuthDialog from '../AuthDialog/AuthDialog';
 
 export const Header: React.FC = () => {
+
+    const [open, setOpen] = React.useState(false);
+
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
+
+
     return (
         <Paper classes={{root: styles.root}} elevation={0}>
             <div className="d-flex align-center">
@@ -43,17 +62,25 @@ export const Header: React.FC = () => {
                 <IconButton>
                     <NotificationIcon/>
                 </IconButton>
-                <Link href="/profile/1">
-                    <a className="d-flex align-center">
-                        <Avatar
-                            className={styles.avatar}
-                            alt="Remy Sharp"
-                            src="https://leonardo.osnova.io/5ffeac9a-a0e5-5be6-98af-659bfaabd2a6/-/scale_crop/108x108/-/format/webp/"
-                        />
-                        <ArrowBottom/>
-                    </a>
-                </Link>
+                {/*<Link href="/profile/1">*/}
+                {/*    <a className="d-flex align-center">*/}
+                {/*        <Avatar*/}
+                {/*            className={styles.avatar}*/}
+                {/*            alt="Remy Sharp"*/}
+                {/*            src="https://leonardo.osnova.io/5ffeac9a-a0e5-5be6-98af-659bfaabd2a6/-/scale_crop/108x108/-/format/webp/"*/}
+                {/*        />*/}
+                {/*        <ArrowBottom/>*/}
+                {/*    </a>*/}
+                {/*</Link>*/}
+
+                <div onClick={handleClickOpen} className={styles.loginButton}>
+                    <UserIcon/>
+                    Войти
+                </div>
             </div>
+
+            <AuthDialog handleClose={handleClose} open={open}/>
+
         </Paper>
     );
 };
